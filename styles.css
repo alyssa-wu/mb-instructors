@@ -1,44 +1,15 @@
-/* Navigation Bar */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    width: 100%;
-}
-  
-li {
-    float: right;
-}
-  
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family:'Lato', sans-serif;
-}
-  
-li a:hover {
-    background-color: #111;
-}
-
-
-  /* Title Background */
 .header-background {
-    background-color: #2eac6d;
+    background-color: #FFFFF;
     width: 100%;
     position: relative;
     top: 0;
     bottom: 0;
 }
-
+ 
 .site-title {
     text-align: center;
     font-family: 'Lato', sans-serif;
-    color: white;
+    color: #113E90;
     font-size: 3em;
     font-weight: 400;
 }
@@ -46,6 +17,8 @@ li a:hover {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
+    grid-row-gap: 25px;
+    grid-column-gap: 25px;
     /* background-color: #2196F3; */
     padding: 10px;
 }
