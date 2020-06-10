@@ -17,8 +17,9 @@
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
+    /* grid-template-rows: 300px 300px; */
     grid-gap: 25px;
-    /* background-color: #FBE8A6; */ 
+    background-color: #FBE8A6;
     justify-content: center;
     padding: 10px;
 }
