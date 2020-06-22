@@ -40,3 +40,7 @@
 a {
     color: #55a698;
   }
+
+  img:hover {
+    opacity: 0.6;
+  }
