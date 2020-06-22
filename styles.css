@@ -41,7 +41,6 @@ a {
     color: #55a698;
   }
 
-/* Added the border to the pictures*/
   img:hover {
     /* opacity: 0.6; */
     border: 5px solid #FFFFFF;
