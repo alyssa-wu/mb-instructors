@@ -20,7 +20,7 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     grid-column-gap: 20px;
     justify-content: center;
     padding: 0px;
@@ -46,4 +46,11 @@ a {
     border: 5px solid #FFFFFF;
   }
 
+  @media (min-width: 600px) {
+    .grid-container { grid-template-columns: repeat(2, 1fr); }
+  }
+  
+  @media (min-width: 900px) {
+    .grid-container { grid-template-columns: repeat(3, 1fr); }
+  }
   
